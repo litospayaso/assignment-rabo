@@ -1,0 +1,22 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Assessment for Rabobank",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "node main.js",
+    "server": "node server.js"
+  },
+  "author": "Angel Hita",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "csv-parse": "^2.5.0",
+    "express": "^4.16.3",
+    "xml-stream": "^0.4.5"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
